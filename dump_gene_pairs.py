@@ -38,6 +38,7 @@ def get_genes_and_diseases(id_list):
         genes = set()
         gene_ids = {}
         diseases = {}
+        diseases_ids = set()
         abstr = doc.find_all('passage')[1]
         for ann in abstr.find_all('annotation'):
             for info in ann.find_all('infon'):
@@ -45,9 +46,15 @@ def get_genes_and_diseases(id_list):
                     genes.add(ann.find('text').text)
                     gene_ids[ann.find('text').text] = ann.find('infon').text
                 elif info['key'] == 'type' and info.text == 'Disease':
-                    if len(ann.find('infon').text.split(':')) > 1:
+                    if len(ann.find('infon').text.split(':')) > 1 \
+                        and ann.find('infon').text.split(':')[1] in diseases_ids \
+                        or ann.find('infon').text and ann.find('infon').text in diseases_ids:
+                            continue
+                    if len(ann.find('infon').text.split(':')) > 1 and ann.find('infon').text.split(':')[1] not in diseases_ids:
+                        diseases_ids.add(ann.find('infon').text.split(':')[1])
                         diseases[ann.find('text').text] = ann.find('infon').text.split(':')[1]
-                    elif ann.find('infon').text:
+                    elif ann.find('infon').text and ann.find('infon').text not in diseases_ids:
+                        diseases_ids.add(ann.find('infon').text)
                         diseases[ann.find('text').text] = ''
         try:
             pairs = get_pairs(sent_tokenize(abstr.find('text').text), list(genes), gene_ids)
