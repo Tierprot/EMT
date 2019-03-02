@@ -22,13 +22,13 @@ with open(gene_pairs_json_file) as f:
 N = len(gene_pairs_json.keys())
 counter = 0
 
-def process_article(article):
+def process_article(article,bases):
     global counter,N,files
     gene_pairs = []
     # pairs = article["genes"].values()
     for pair in article["genes"].values():
         gene_pairs.append((pair["gene_1_name"],pair["gene_2_name"]))
-    check = check_interactions(gene_pairs,files)
+    check = check_interactions(gene_pairs,bases,files)
     for pair,c in zip(article["genes"].values(),check):
         pair["database"] = c
     counter += 1

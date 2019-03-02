@@ -12,7 +12,7 @@ def parse_db_line(ref, line):
     values = line.rstrip().split("\t")
     return(dict(zip(keys,values)))
 
-def check_interactions(gene_pairs, files):
+def check_interactions(gene_pairs, bases, files):
     # gene_pairs = [("BRCA1", "ATF1"),
     #               ("A2M", "KLKB1"),
     #               ("TLR4_HUMAN", "LY96_HUMAN")]
