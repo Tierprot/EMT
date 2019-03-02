@@ -7,7 +7,6 @@ from multiprocessing import Pool
 gene_pairs_json_file = "gene_pairs_test.json"
 
 bases = {"BIOGRID" : "interaction_databases/BIOGRID/BIOGRID-ORGANISM-Homo_sapiens-3.5.170.tab2.txt",
-         "INNATE" : "interaction_databases/Innate/innatedb_reduced.txt",
          "REACTOME" : "interaction_databases/Reactome/Reactome.txt",
          "RNA" : "interaction_databases/RNA/RNA_all_reduced.txt"}
 

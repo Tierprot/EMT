@@ -32,31 +32,39 @@ def check_interactions(gene_pairs, bases, files):
                 if first_line:
                     ref = line
                     first_line = False
-                if base == "RNA":
-                    if not ("Homo sapiens" in line):
-                        continue
-                if base == "INNATE":
-                    if not (("HUMAN" in line) | ("human" in line) | ("Human" in line)):
-                        continue
-                if (gene_1 in line) & (gene_2 in line):
-                    # d = parse_db_line(ref, line)
-                    # # print(d)
-                    # if base == "INNATE":
-                    #     score = d["confidence_score"]
-                    #     type_1 = d["interactor_type_A"]
-                    #     type_2 = d["interactor_type_B"]
-                    # elif base == "RNA":
-                    #     score = ""
-                    #     type_1 = d["Category1"]
-                    #     type_2 = d["Category2"]
-                    # else:
-                    #     score = ""
-                    #     type_1 = ""
-                    #     type_2 = ""
-                    
-                    # s = "%s,%s,%s,%s,%s" % (gene_1,gene_2,type_1,type_2,base)
+                d = parse_db_line(ref, line)
+                if base == "BIOGRID":
+                    ref_1 = d["Official Symbol Interactor A"].strip()
+                    ref_2 = d["Official Symbol Interactor B"].strip()
+                elif base == "REACTOME":
+                    ref_1 = d["Gene1"].strip()
+                    ref_2 = d["Gene2"].strip()
+                elif base == "RNA":
+                    ref_1 = d["Interactor1"].strip()
+                    ref_2 = d["Interactor2"].strip()
+                if set([ref_1, ref_2]) == set([gene_1, gene_2]):
                     check += 1
-                    # print(gene_1,gene_2,s)
+                    # print(ref_1, ref_2,gene_1, gene_2)
+
+                # if (gene_1 in line) & (gene_2 in line):
+                #     # d = parse_db_line(ref, line)
+                #     # # print(d)
+                #     # if base == "INNATE":
+                #     #     score = d["confidence_score"]
+                #     #     type_1 = d["interactor_type_A"]
+                #     #     type_2 = d["interactor_type_B"]
+                #     # elif base == "RNA":
+                #     #     score = ""
+                #     #     type_1 = d["Category1"]
+                #     #     type_2 = d["Category2"]
+                #     # else:
+                #     #     score = ""
+                #     #     type_1 = ""
+                #     #     type_2 = ""
+                    
+                #     # s = "%s,%s,%s,%s,%s" % (gene_1,gene_2,type_1,type_2,base)
+                #     check += 1
+                #     # print(gene_1,gene_2,s)
         if check > 0:
             interaction_check.append(base)
         else:
