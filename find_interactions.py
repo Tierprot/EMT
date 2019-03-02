@@ -67,9 +67,9 @@ def check_interactions(gene_pairs):
                     check += 1
                     # print(gene_1,gene_2,s)
         if check > 0:
-            interaction_check.append(True)
+            interaction_check.append(base)
         else:
-            interaction_check.append(False)
+            interaction_check.append("")
         # end = time.time()
         # print(end - start)
     return(interaction_check)
