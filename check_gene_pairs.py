@@ -10,7 +10,7 @@ bases = {"BIOGRID" : "interaction_databases/BIOGRID/BIOGRID-ORGANISM-Homo_sapien
          "REACTOME" : "interaction_databases/Reactome/Reactome.txt",
          "RNA" : "interaction_databases/RNA/RNA_all_reduced.txt"}
 
-bases = {"REACTOME" : "interaction_databases/Reactome/Reactome.txt"}
+# bases = {"REACTOME" : "interaction_databases/Reactome/Reactome.txt"}
 
 handlers = [open(x, "r") for x in bases.values()]
 files = [x.readlines() for x in handlers]
@@ -32,7 +32,8 @@ def process_article(article):
     for pair,c in zip(article["genes"].values(),check):
         pair["database"] = c
     counter += 1
-    print("%d/%d" % (counter,N))
+    print("%d/%d" % (counter,N), check)
+    # print(check)
 
 
 entries = gene_pairs_json.values()

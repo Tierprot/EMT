@@ -26,6 +26,7 @@ def check_interactions(gene_pairs, bases, files):
 
     for gene_1,gene_2 in gene_pairs:
         check = 0
+        found_in_bases = ""
         for base,f in zip(bases.keys(), files):
             # first_line = True
             for line in f:
@@ -45,7 +46,6 @@ def check_interactions(gene_pairs, bases, files):
                 # if set([ref_1, ref_2]) == set([gene_1, gene_2]):
                 #     check += 1
                     # print(ref_1, ref_2,gene_1, gene_2)
-
                 if (gene_1 in line) & (gene_2 in line):
                     # d = parse_db_line(ref, line)
                     # # print(d)
@@ -63,10 +63,12 @@ def check_interactions(gene_pairs, bases, files):
                     #     type_2 = ""
                     
                     # s = "%s,%s,%s,%s,%s" % (gene_1,gene_2,type_1,type_2,base)
+                    found_in_bases += base + ";"
                     check += 1
+                    break
                     # print(gene_1,gene_2,s)
         if check > 0:
-            interaction_check.append(base)
+            interaction_check.append(found_in_bases)
         else:
             interaction_check.append("")
         # end = time.time()
