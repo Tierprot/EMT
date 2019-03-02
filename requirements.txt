@@ -1,2 +1,7 @@
 redis
 celery
+numpy
+scipy
+tensorflow
+pylzma
+
