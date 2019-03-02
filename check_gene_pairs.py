@@ -22,8 +22,6 @@ with open(gene_pairs_json_file) as f:
 N = len(gene_pairs_json.keys())
 counter = 0
 
-def process_article(article,bases):
-    global counter,N,files
 def process_article(article):
     global counter,N,bases,files
     gene_pairs = []
