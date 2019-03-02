@@ -24,6 +24,8 @@ counter = 0
 
 def process_article(article,bases):
     global counter,N,files
+def process_article(article):
+    global counter,N,bases,files
     gene_pairs = []
     # pairs = article["genes"].values()
     for pair in article["genes"].values():
