@@ -2,15 +2,16 @@ from find_interactions import *
 import json
 from pprint import pprint
 from handythread import *
+from multiprocessing import Pool
 
-gene_pairs_json_file = "gene_pairs.json"
+gene_pairs_json_file = "gene_pairs_test.json"
 
-bases = {"BIOGRID" : "interaction_databases/BIOGRID-ALL-3.5.170.tab2/BIOGRID-ALL-3.5.170.tab2.txt",
-         "INNATE" : "interaction_databases/Innate/innatedb_all.mitab",
-         "REACTOME" : "interaction_databases/Reactome/Reactome_ALL.txt",
-         "RNA" : "interaction_databases/RNA/RNA_all.txt"}
+bases = {"BIOGRID" : "interaction_databases/BIOGRID/BIOGRID-ORGANISM-Homo_sapiens-3.5.170.tab2.txt",
+         "INNATE" : "interaction_databases/Innate/innatedb_reduced.txt",
+         "REACTOME" : "interaction_databases/Reactome/Reactome.txt",
+         "RNA" : "interaction_databases/RNA/RNA_all_reduced.txt"}
 
-# bases = {"REACTOME" : "interaction_databases/Reactome/Reactome_ALL.txt"}
+bases = {"REACTOME" : "interaction_databases/Reactome/Reactome.txt"}
 
 handlers = [open(x, "r") for x in bases.values()]
 files = [x.readlines() for x in handlers]
@@ -36,7 +37,9 @@ def process_article(article):
 
 
 entries = gene_pairs_json.values()
-foreach(process_article,entries,threads=16)
+foreach(process_article,entries,threads=2)
+# pool = Pool(16)
+# pool.map(process_article, gene_pairs_json.values())
 
 with open("gene_pairs_checked.json", "w") as f:
     json.dump(gene_pairs_json, f, indent = "\t", separators=(", ", " : "))
