@@ -12,21 +12,12 @@ def parse_db_line(ref, line):
     values = line.rstrip().split("\t")
     return(dict(zip(keys,values)))
 
-def check_interactions(gene_pairs):
+def check_interactions(gene_pairs, files):
     # gene_pairs = [("BRCA1", "ATF1"),
     #               ("A2M", "KLKB1"),
     #               ("TLR4_HUMAN", "LY96_HUMAN")]
 
     interaction_check = []
-
-    bases = {"BIOGRID" : "interaction_databases/BIOGRID-ALL-3.5.170.tab2/BIOGRID-ALL-3.5.170.tab2.txt",
-             "INNATE" : "interaction_databases/Innate/innatedb_all.mitab",
-             "REACTOME" : "interaction_databases/Reactome/Reactome_ALL.txt",
-             "RNA" : "interaction_databases/RNA/RNA_all.txt"}
-
-    handlers = [open(x, "r") for x in bases.values()]
-    files = [x.readlines() for x in handlers]
-    for f in handlers: f.close()
 
     # header = "gene_1,gene_2,type_1,type_2,database"
     # print(header)
