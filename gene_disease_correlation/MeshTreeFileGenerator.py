@@ -1,24 +1,23 @@
 import pickle
 from tree import MeSHTree
 
-root_node_address = "C04.588"
-MESH = MeSHTree()
+def pick_diseases():
+    res = []
 
-with open('mesh.pubmed') as inp:
-    for item in inp:
-        MESH.addNode(item)
+    root_node_address = "C04.588"
+    MESH = MeSHTree()
 
-nds = MESH.getAllChildrenNodes(root_node_address)
-# print(len(nds))
-names = []
-for n in nds:
-    names.append(n.text)
-    print(n.id,"\t", n.text)
+    with open('mesh.pubmed') as inp:
+        for item in inp:
+            MESH.addNode(item)
 
-# for item in sorted(names):
-#     print(item)
-
-
+    nds = MESH.getAllChildrenNodes(root_node_address)
+    # print(len(nds))
+    names = []
+    for n in nds:
+        names.append(n.text)
+        res.append((n.id,n.text))
+    return(res)
 
 
 

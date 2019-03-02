@@ -1,4 +1,5 @@
 import json
+from MeshTreeFileGenerator import pick_diseases
 
 db = "../gene_pairs.json"
 
@@ -37,6 +38,7 @@ picked_diseases = [("D001749", "Urinary Bladder Neoplasms"),
                    ("D007680", "Kidney Neoplasms"),
                    ("D014594", "Uterine Neoplasms"),
                    ("D011471", "Prostatic Neoplasms")]
+picked_diseases = pick_diseases()                   
 
 genes_for_deseases = {}
 
