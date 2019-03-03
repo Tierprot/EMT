@@ -38,7 +38,7 @@ picked_diseases = [("D001749", "Urinary Bladder Neoplasms"),
                    ("D007680", "Kidney Neoplasms"),
                    ("D014594", "Uterine Neoplasms"),
                    ("D011471", "Prostatic Neoplasms")]
-picked_diseases = pick_diseases()                   
+# picked_diseases = pick_diseases()                   
 
 genes_for_deseases = {}
 
@@ -58,7 +58,19 @@ for mesh,name in picked_diseases:
     genes_for_deseases[mesh] = set(list_of_genes)
     print("Number of associated genes with %s:" % name,len(genes_for_deseases[mesh]))
 
-with open("report.txt","w") as f:
+with open("report_4.txt","w") as f:
     for mesh,name in picked_diseases:
-        f.write(str(sorted(genes_for_deseases[mesh]))+"\n")
+        s = [str(name)]
+        s += [gene for gene in sorted(genes_for_deseases[mesh])]
+        # s += ["\n"]
+        f.write((",").join(s))
+        f.write("\n")
+        # s.append()
+        # f.write(str(name)+str(sorted(genes_for_deseases[mesh]))+"\n")
+
+
+# with open("report_4.txt","w") as f:
+#     for mesh,name in picked_diseases:
+#         f.write(str(sorted(genes_for_deseases[mesh]))+"\n")
+
 
