@@ -6,16 +6,16 @@
       {% endblock %}
 
       {% block navbar %}
-      <form class="form-inline">
-						<input class="form-control mr-sm-2" type="text">
-						<button class="btn btn-primary my-2 my-sm-0" type="submit">
+      <form class="form-inline" id="search-form" method=post enctype="multipart/form-data" role="form">
+						<input id="get_info" class="form-control mr-sm-2" type="text">
+						<button id="get_info_button" class="btn btn-primary my-2 my-sm-0" type="submit">
 							Search
 						</button>
 			</form>
       {% endblock %}
 
       {% block tabs%}
-			<div class="tabbable" id="tabs-635030">
+      <div class="tabbable" id="tabs-635030">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Gene partners</a>
@@ -28,7 +28,7 @@
           </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> {{test_data|safe}}</div>
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> <div id="table"></div></div>
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"> some graphs</div>
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"> e-mails </div>
         </div>
