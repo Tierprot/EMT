@@ -60,5 +60,17 @@ for mesh,name in picked_diseases:
 
 with open("report.txt","w") as f:
     for mesh,name in picked_diseases:
-        f.write(str(sorted(genes_for_deseases[mesh]))+"\n")
+        s = [str(name)]
+        s += [gene for gene in sorted(genes_for_deseases[mesh])]
+        # s += ["\n"]
+        f.write((",").join(s))
+        f.write("\n")
+        # s.append()
+        # f.write(str(name)+str(sorted(genes_for_deseases[mesh]))+"\n")
+
+
+# with open("report_4.txt","w") as f:
+#     for mesh,name in picked_diseases:
+#         f.write(str(sorted(genes_for_deseases[mesh]))+"\n")
+
 
