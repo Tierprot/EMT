@@ -36,6 +36,7 @@ def th_decorator(func):
 
     def func_wrapper(gene_data, headers_order=CONSTANT_ORDER):
         if type(gene_data)==dict:
+            print(gene_data)
             return ' '.join(['<td>'+func(gene_data[col_name])+'</td>' for col_name in CONSTANT_ORDER])
         else:
             return '<th>'+func(gene_data)+'</th>'

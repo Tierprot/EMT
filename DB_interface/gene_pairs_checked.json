@@ -1,0 +1,2276 @@
+{
+	"30782064" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "p62", 
+				"gene_2_name" : "SQSTM1", 
+				"gene_1_id" : "18412", 
+				"gene_2_id" : "18412", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "ATG3", 
+				"gene_2_name" : "ZEB1", 
+				"gene_1_id" : "67841", 
+				"gene_2_id" : "21417", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "ATG3", 
+				"gene_2_name" : "Snail2", 
+				"gene_1_id" : "67841", 
+				"gene_2_id" : "20583", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "ATG3", 
+				"gene_2_name" : "ATG5", 
+				"gene_1_id" : "67841", 
+				"gene_2_id" : "11793", 
+				"database" : "BIOGRID;REACTOME;"
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "ATG3", 
+				"gene_2_name" : "SNAI2", 
+				"gene_1_id" : "67841", 
+				"gene_2_id" : "20583", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "ZEB1", 
+				"gene_2_name" : "Snail2", 
+				"gene_1_id" : "21417", 
+				"gene_2_id" : "20583", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "ZEB1", 
+				"gene_2_name" : "ATG5", 
+				"gene_1_id" : "21417", 
+				"gene_2_id" : "11793", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "ZEB1", 
+				"gene_2_name" : "SNAI2", 
+				"gene_1_id" : "21417", 
+				"gene_2_id" : "20583", 
+				"database" : ""
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "Snail2", 
+				"gene_2_name" : "ATG5", 
+				"gene_1_id" : "20583", 
+				"gene_2_id" : "11793", 
+				"database" : ""
+			}, 
+			"pair_10" : {
+				"gene_1_name" : "Snail2", 
+				"gene_2_name" : "SNAI2", 
+				"gene_1_id" : "20583", 
+				"gene_2_id" : "20583", 
+				"database" : ""
+			}, 
+			"pair_11" : {
+				"gene_1_name" : "ATG5", 
+				"gene_2_name" : "SNAI2", 
+				"gene_1_id" : "11793", 
+				"gene_2_id" : "20583", 
+				"database" : ""
+			}, 
+			"pair_12" : {
+				"gene_1_name" : "RELA", 
+				"gene_2_name" : "p65", 
+				"gene_1_id" : "19697", 
+				"gene_2_id" : "19697", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_13" : {
+				"gene_1_name" : "E-cadherin", 
+				"gene_2_name" : "SQSTM1", 
+				"gene_1_id" : "12550", 
+				"gene_2_id" : "18412", 
+				"database" : ""
+			}, 
+			"pair_14" : {
+				"gene_1_name" : "E-cadherin", 
+				"gene_2_name" : "CDH1", 
+				"gene_1_id" : "12550", 
+				"gene_2_id" : "12550", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_15" : {
+				"gene_1_name" : "SQSTM1", 
+				"gene_2_name" : "CDH1", 
+				"gene_1_id" : "18412", 
+				"gene_2_id" : "12550", 
+				"database" : ""
+			}, 
+			"pair_16" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TGFB", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "21803", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_17" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TNF receptor associated factor 6", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "22034", 
+				"database" : ""
+			}, 
+			"pair_18" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TRAF6", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "22034", 
+				"database" : ""
+			}, 
+			"pair_19" : {
+				"gene_1_name" : "TGFB", 
+				"gene_2_name" : "TNF receptor associated factor 6", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "22034", 
+				"database" : ""
+			}, 
+			"pair_20" : {
+				"gene_1_name" : "TGFB", 
+				"gene_2_name" : "TRAF6", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "22034", 
+				"database" : "BIOGRID;REACTOME;"
+			}, 
+			"pair_21" : {
+				"gene_1_name" : "TNF receptor associated factor 6", 
+				"gene_2_name" : "TRAF6", 
+				"gene_1_id" : "22034", 
+				"gene_2_id" : "22034", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"tumors" : "D009369", 
+			"pancreatic adenocarcinoma" : "D010195", 
+			"necrosis" : "D009336"
+		}
+	}, 
+	"30782157" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "TFRC", 
+				"gene_2_name" : "miR-107", 
+				"gene_1_id" : "7037", 
+				"gene_2_id" : "406901", 
+				"database" : "RNA;"
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "TFRC", 
+				"gene_2_name" : "miR-107", 
+				"gene_1_id" : "7037", 
+				"gene_2_id" : "406901", 
+				"database" : "RNA;"
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "TFRC", 
+				"gene_2_name" : "miR-107", 
+				"gene_1_id" : "7037", 
+				"gene_2_id" : "406901", 
+				"database" : "RNA;"
+			}
+		}, 
+		"diseases" : {
+			"cancer" : "D009369", 
+			"bladder cancer" : "D001749"
+		}
+	}, 
+	"30783098" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "FBXW7", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "55294", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "FBXW7", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "55294", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "FBXW7", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "55294", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"Colorectal cancer" : "D015179", 
+			"cancer" : "D009369", 
+			"stemness" : "D020295", 
+			"tumour-stromal crosstalk" : "D046152"
+		}
+	}, 
+	"30783423" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "metastasis-associated lung adenocarcinoma transcript 1", 
+				"gene_2_name" : "MALAT1", 
+				"gene_1_id" : "378938", 
+				"gene_2_id" : "378938", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"gastric cancer" : "D013274"
+		}
+	}, 
+	"30783512" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "TGFbeta", 
+				"gene_2_name" : "Transforming growth factor beta", 
+				"gene_1_id" : "7040", 
+				"gene_2_id" : "7040", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "TGFbeta", 
+				"gene_2_name" : "TGFbeta-1", 
+				"gene_1_id" : "7040", 
+				"gene_2_id" : "7040", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "TGFbeta", 
+				"gene_2_name" : "TGFbeta-1", 
+				"gene_1_id" : "7040", 
+				"gene_2_id" : "7040", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"Non-Small Cell Lung Carcinoma" : "D002289", 
+			"tumors" : "D009369", 
+			"colon cancer" : "D015179", 
+			"lung cancer" : "D008175", 
+			"lung adenocarcinomas" : "C538231"
+		}
+	}, 
+	"30784875" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "vimentin", 
+				"gene_2_name" : "MMP-2", 
+				"gene_1_id" : "7431", 
+				"gene_2_id" : "4313", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "vimentin", 
+				"gene_2_name" : "Eto", 
+				"gene_1_id" : "7431", 
+				"gene_2_id" : "12395", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "vimentin", 
+				"gene_2_name" : "COX-2", 
+				"gene_1_id" : "7431", 
+				"gene_2_id" : "4513", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "vimentin", 
+				"gene_2_name" : "E-cadherin", 
+				"gene_1_id" : "7431", 
+				"gene_2_id" : "999", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "MMP-2", 
+				"gene_2_name" : "Eto", 
+				"gene_1_id" : "4313", 
+				"gene_2_id" : "12395", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "MMP-2", 
+				"gene_2_name" : "COX-2", 
+				"gene_1_id" : "4313", 
+				"gene_2_id" : "4513", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "MMP-2", 
+				"gene_2_name" : "E-cadherin", 
+				"gene_1_id" : "4313", 
+				"gene_2_id" : "999", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "Eto", 
+				"gene_2_name" : "COX-2", 
+				"gene_1_id" : "12395", 
+				"gene_2_id" : "4513", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "Eto", 
+				"gene_2_name" : "E-cadherin", 
+				"gene_1_id" : "12395", 
+				"gene_2_id" : "999", 
+				"database" : ""
+			}, 
+			"pair_10" : {
+				"gene_1_name" : "COX-2", 
+				"gene_2_name" : "E-cadherin", 
+				"gene_1_id" : "4513", 
+				"gene_2_id" : "999", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"cancer" : "D009369", 
+			"death" : "D003643", 
+			"cytotoxicity booster" : "D064420"
+		}
+	}, 
+	"30784920" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "protein kinase B", 
+				"gene_2_name" : "AKT", 
+				"gene_1_id" : "2185", 
+				"gene_2_id" : "207", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"tumor" : "D009369", 
+			"glioma" : "D005910"
+		}
+	}, 
+	"30785016" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "NLRP3", 
+				"gene_2_name" : "toll-like receptor 4", 
+				"gene_1_id" : "287362", 
+				"gene_2_id" : "29260", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "NLRP3", 
+				"gene_2_name" : "TLR4", 
+				"gene_1_id" : "287362", 
+				"gene_2_id" : "29260", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "toll-like receptor 4", 
+				"gene_2_name" : "TLR4", 
+				"gene_1_id" : "29260", 
+				"gene_2_id" : "29260", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "NLRP3", 
+				"gene_2_name" : "TLR4", 
+				"gene_1_id" : "287362", 
+				"gene_2_id" : "29260", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "NLRP3", 
+				"gene_2_name" : "Alb", 
+				"gene_1_id" : "287362", 
+				"gene_2_id" : "24186", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "NLRP3", 
+				"gene_2_name" : "albumin", 
+				"gene_1_id" : "287362", 
+				"gene_2_id" : "24186", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "Alb", 
+				"gene_2_name" : "albumin", 
+				"gene_1_id" : "24186", 
+				"gene_2_id" : "24186", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "NLRP3", 
+				"gene_2_name" : "TLR4", 
+				"gene_1_id" : "287362", 
+				"gene_2_id" : "29260", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"diabetic nephropathy" : "D003928", 
+			"renal interstitial fibrosis" : "D005355"
+		}
+	}, 
+	"30786277" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "Kruppel-like factor 4", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "Krt12", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "268482", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "Krt12", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "268482", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "Krt12", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "268482", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "Smad2/3", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "17127", 
+				"database" : ""
+			}, 
+			"pair_10" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "p16", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "12578", 
+				"database" : ""
+			}, 
+			"pair_11" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "Smad4", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "17128", 
+				"database" : ""
+			}, 
+			"pair_12" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "Smad7", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_13" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_14" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_15" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_16" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_17" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_18" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "p16", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "12578", 
+				"database" : ""
+			}, 
+			"pair_19" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "Smad4", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "17128", 
+				"database" : ""
+			}, 
+			"pair_20" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "Smad7", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_21" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_22" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_23" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_24" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_25" : {
+				"gene_1_name" : "Smad2/3", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "17127", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_26" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "Smad4", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "17128", 
+				"database" : ""
+			}, 
+			"pair_27" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "Smad7", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_28" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_29" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_30" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "12576", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_31" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_32" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_33" : {
+				"gene_1_name" : "Smad4", 
+				"gene_2_name" : "Smad7", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_34" : {
+				"gene_1_name" : "Smad4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_35" : {
+				"gene_1_name" : "Smad4", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_36" : {
+				"gene_1_name" : "Smad4", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_37" : {
+				"gene_1_name" : "Smad4", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_38" : {
+				"gene_1_name" : "Smad4", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_39" : {
+				"gene_1_name" : "Smad7", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_40" : {
+				"gene_1_name" : "Smad7", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_41" : {
+				"gene_1_name" : "Smad7", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_42" : {
+				"gene_1_name" : "Smad7", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_43" : {
+				"gene_1_name" : "Smad7", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_44" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "Klf4", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_45" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_46" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "21803", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_47" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_48" : {
+				"gene_1_name" : "Klf4", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_49" : {
+				"gene_1_name" : "Klf4", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_50" : {
+				"gene_1_name" : "Klf4", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_51" : {
+				"gene_1_name" : "p27", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "12576", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_52" : {
+				"gene_1_name" : "p27", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "12576", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_53" : {
+				"gene_1_name" : "TGF-beta1", 
+				"gene_2_name" : "TGF-beta1, -beta2", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "21803;21808", 
+				"database" : ""
+			}, 
+			"pair_54" : {
+				"gene_1_name" : "TGF-beta1 and -beta2", 
+				"gene_2_name" : "SMAD2/3", 
+				"gene_1_id" : "21803;21808", 
+				"gene_2_id" : "17126;17127", 
+				"database" : ""
+			}, 
+			"pair_55" : {
+				"gene_1_name" : "TGF-beta1 and -beta2", 
+				"gene_2_name" : "SMAD4", 
+				"gene_1_id" : "21803;21808", 
+				"gene_2_id" : "17128", 
+				"database" : ""
+			}, 
+			"pair_56" : {
+				"gene_1_name" : "TGF-beta1 and -beta2", 
+				"gene_2_name" : "SMAD7", 
+				"gene_1_id" : "21803;21808", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_57" : {
+				"gene_1_name" : "TGF-beta1 and -beta2", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "21803;21808", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_58" : {
+				"gene_1_name" : "TGF-beta1 and -beta2", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "21803;21808", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_59" : {
+				"gene_1_name" : "TGF-beta1 and -beta2", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "21803;21808", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_60" : {
+				"gene_1_name" : "SMAD2/3", 
+				"gene_2_name" : "SMAD4", 
+				"gene_1_id" : "17126;17127", 
+				"gene_2_id" : "17128", 
+				"database" : ""
+			}, 
+			"pair_61" : {
+				"gene_1_name" : "SMAD2/3", 
+				"gene_2_name" : "SMAD7", 
+				"gene_1_id" : "17126;17127", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_62" : {
+				"gene_1_name" : "SMAD2/3", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "17126;17127", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_63" : {
+				"gene_1_name" : "SMAD2/3", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17126;17127", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_64" : {
+				"gene_1_name" : "SMAD2/3", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17126;17127", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_65" : {
+				"gene_1_name" : "SMAD4", 
+				"gene_2_name" : "SMAD7", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "17131", 
+				"database" : "BIOGRID;REACTOME;RNA;"
+			}, 
+			"pair_66" : {
+				"gene_1_name" : "SMAD4", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "16600", 
+				"database" : "REACTOME;RNA;"
+			}, 
+			"pair_67" : {
+				"gene_1_name" : "SMAD4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_68" : {
+				"gene_1_name" : "SMAD4", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17128", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_69" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_70" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_71" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_72" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_73" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_74" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "21803", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_75" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "p16", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "12578", 
+				"database" : ""
+			}, 
+			"pair_76" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "SMAD7", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_77" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_78" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_79" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_80" : {
+				"gene_1_name" : "betaR1", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "56066", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_81" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "SMAD7", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "17131", 
+				"database" : ""
+			}, 
+			"pair_82" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_83" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_84" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "12576", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_85" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_86" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_87" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_88" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_89" : {
+				"gene_1_name" : "SMAD7", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "17131", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_90" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_91" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_92" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_93" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_94" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "21803", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_95" : {
+				"gene_1_name" : "p27", 
+				"gene_2_name" : "TGF-beta1", 
+				"gene_1_id" : "12576", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_96" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "KLF4", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "16600", 
+				"database" : ""
+			}, 
+			"pair_97" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_98" : {
+				"gene_1_name" : "p16", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "12578", 
+				"gene_2_id" : "12576", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_99" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "21803", 
+				"database" : ""
+			}, 
+			"pair_100" : {
+				"gene_1_name" : "KLF4", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "16600", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}, 
+			"pair_101" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "p27", 
+				"gene_1_id" : "21803", 
+				"gene_2_id" : "12576", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {}
+	}, 
+	"30786811" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "HGF", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "15234", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "PGI", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "DLAT", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "glutaminase", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "14660", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "PDCE2", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "PDHA1", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "18597", 
+				"database" : ""
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_10" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_11" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_12" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_13" : {
+				"gene_1_name" : "GLS", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "216456", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_14" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_15" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "DLAT", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_16" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "glutaminase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14660", 
+				"database" : ""
+			}, 
+			"pair_17" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "PDCE2", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_18" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "PDHA1", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "18597", 
+				"database" : ""
+			}, 
+			"pair_19" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14751", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_20" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_21" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "15234", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_22" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14751", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_23" : {
+				"gene_1_name" : "PGI", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_24" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "DLAT", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_25" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "glutaminase", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "14660", 
+				"database" : ""
+			}, 
+			"pair_26" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "PDCE2", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_27" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "PDHA1", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "18597", 
+				"database" : ""
+			}, 
+			"pair_28" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_29" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "14433", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_30" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_31" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_32" : {
+				"gene_1_name" : "glyceraldehyde-3-phosphate dehydrogenase", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_33" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "glutaminase", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14660", 
+				"database" : ""
+			}, 
+			"pair_34" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "PDCE2", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "235339", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_35" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "PDHA1", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "18597", 
+				"database" : "BIOGRID;REACTOME;"
+			}, 
+			"pair_36" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_37" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_38" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_39" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_40" : {
+				"gene_1_name" : "DLAT", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_41" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "PDCE2", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "235339", 
+				"database" : ""
+			}, 
+			"pair_42" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "PDHA1", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "18597", 
+				"database" : ""
+			}, 
+			"pair_43" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_44" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_45" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_46" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_47" : {
+				"gene_1_name" : "glutaminase", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "14660", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_48" : {
+				"gene_1_name" : "PDCE2", 
+				"gene_2_name" : "PDHA1", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "18597", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_49" : {
+				"gene_1_name" : "PDCE2", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_50" : {
+				"gene_1_name" : "PDCE2", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_51" : {
+				"gene_1_name" : "PDCE2", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_52" : {
+				"gene_1_name" : "PDCE2", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_53" : {
+				"gene_1_name" : "PDCE2", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "235339", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_54" : {
+				"gene_1_name" : "PDHA1", 
+				"gene_2_name" : "GPI", 
+				"gene_1_id" : "18597", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_55" : {
+				"gene_1_name" : "PDHA1", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "18597", 
+				"gene_2_id" : "14433", 
+				"database" : ""
+			}, 
+			"pair_56" : {
+				"gene_1_name" : "PDHA1", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "18597", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_57" : {
+				"gene_1_name" : "PDHA1", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "18597", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_58" : {
+				"gene_1_name" : "PDHA1", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "18597", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_59" : {
+				"gene_1_name" : "GPI", 
+				"gene_2_name" : "GAPDH", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14433", 
+				"database" : "BIOGRID;REACTOME;"
+			}, 
+			"pair_60" : {
+				"gene_1_name" : "GPI", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "15234", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_61" : {
+				"gene_1_name" : "GPI", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_62" : {
+				"gene_1_name" : "GPI", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_63" : {
+				"gene_1_name" : "GAPDH", 
+				"gene_2_name" : "HGF", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "15234", 
+				"database" : ""
+			}, 
+			"pair_64" : {
+				"gene_1_name" : "GAPDH", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_65" : {
+				"gene_1_name" : "GAPDH", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "14433", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_66" : {
+				"gene_1_name" : "HGF", 
+				"gene_2_name" : "glucose-6-phosphate isomerase", 
+				"gene_1_id" : "15234", 
+				"gene_2_id" : "14751", 
+				"database" : ""
+			}, 
+			"pair_67" : {
+				"gene_1_name" : "HGF", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "15234", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}, 
+			"pair_68" : {
+				"gene_1_name" : "glucose-6-phosphate isomerase", 
+				"gene_2_name" : "receptor tyrosine kinase", 
+				"gene_1_id" : "14751", 
+				"gene_2_id" : "22174", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"liver cancer" : "D006528", 
+			"liver carcinogenesis" : "D063646", 
+			"cancer" : "D009369", 
+			"GS" : "D011125"
+		}
+	}, 
+	"30787030" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "VASP", 
+				"gene_2_name" : "DIAPH1", 
+				"gene_1_id" : "7408", 
+				"gene_2_id" : "1729", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "VASP", 
+				"gene_2_name" : "mDia1", 
+				"gene_1_id" : "7408", 
+				"gene_2_id" : "13367", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "DIAPH1", 
+				"gene_2_name" : "mDia1", 
+				"gene_1_id" : "1729", 
+				"gene_2_id" : "13367", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {}
+	}, 
+	"30787271" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "Ataxin-2-like", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "11273", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "epidermal growth factor", 
+				"gene_2_name" : "ATXN2L", 
+				"gene_1_id" : "1950", 
+				"gene_2_id" : "11273", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "epidermal growth factor", 
+				"gene_2_name" : "EGF", 
+				"gene_1_id" : "1950", 
+				"gene_2_id" : "1950", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "epidermal growth factor", 
+				"gene_2_name" : "Akt", 
+				"gene_1_id" : "1950", 
+				"gene_2_id" : "207", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "EGF", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "1950", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "Akt", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "207", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "EGF", 
+				"gene_2_name" : "Akt", 
+				"gene_1_id" : "1950", 
+				"gene_2_id" : "207", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "EGF", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "1950", 
+				"database" : ""
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "EGFR", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "1956", 
+				"database" : ""
+			}, 
+			"pair_10" : {
+				"gene_1_name" : "EGF", 
+				"gene_2_name" : "EGFR", 
+				"gene_1_id" : "1950", 
+				"gene_2_id" : "1956", 
+				"database" : "BIOGRID;REACTOME;RNA;"
+			}, 
+			"pair_11" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "EGF", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "1950", 
+				"database" : ""
+			}, 
+			"pair_12" : {
+				"gene_1_name" : "ATXN2L", 
+				"gene_2_name" : "Akt", 
+				"gene_1_id" : "11273", 
+				"gene_2_id" : "207", 
+				"database" : ""
+			}, 
+			"pair_13" : {
+				"gene_1_name" : "EGF", 
+				"gene_2_name" : "Akt", 
+				"gene_1_id" : "1950", 
+				"gene_2_id" : "207", 
+				"database" : "BIOGRID;"
+			}
+		}, 
+		"diseases" : {
+			"gastric cancer" : "D013274", 
+			"cancers" : "D009369"
+		}
+	}, 
+	"30787981" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "beta-catenin", 
+				"gene_2_name" : "E-cadherin", 
+				"gene_1_id" : "1499", 
+				"gene_2_id" : "999", 
+				"database" : "BIOGRID;"
+			}
+		}, 
+		"diseases" : {
+			"Malignant pheochromocytoma" : "D010673", 
+			"tumor" : "D009369"
+		}
+	}, 
+	"30787993" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "Ecadherin", 
+				"gene_2_name" : "N-cadherin", 
+				"gene_1_id" : "999", 
+				"gene_2_id" : "1000", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "Ecadherin", 
+				"gene_2_name" : "Vimentin", 
+				"gene_1_id" : "999", 
+				"gene_2_id" : "7431", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "N-cadherin", 
+				"gene_2_name" : "Vimentin", 
+				"gene_1_id" : "1000", 
+				"gene_2_id" : "7431", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"tumor" : "D009369", 
+			"glioblastoma" : "D005909"
+		}
+	}, 
+	"30787996" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "Snail", 
+				"gene_2_name" : "GSK-3beta", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "2932", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "Snail", 
+				"gene_2_name" : "EMT", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "3702", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "Snail", 
+				"gene_2_name" : "NUP58", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "9818", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "GSK-3beta", 
+				"gene_2_name" : "EMT", 
+				"gene_1_id" : "2932", 
+				"gene_2_id" : "3702", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "GSK-3beta", 
+				"gene_2_name" : "NUP58", 
+				"gene_1_id" : "2932", 
+				"gene_2_id" : "9818", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "EMT", 
+				"gene_2_name" : "NUP58", 
+				"gene_1_id" : "3702", 
+				"gene_2_id" : "9818", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "Snail", 
+				"gene_2_name" : "GSK-3beta", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "2932", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "Snail", 
+				"gene_2_name" : "NUP58", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "9818", 
+				"database" : ""
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "GSK-3beta", 
+				"gene_2_name" : "NUP58", 
+				"gene_1_id" : "2932", 
+				"gene_2_id" : "9818", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"lung cancer" : "D008175", 
+			"lung adenocarcinoma" : "C538231", 
+			"tumor metastasis" : "D009362"
+		}
+	}, 
+	"30788419" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "GFPT2", 
+				"gene_2_name" : "UDP-N-acetylglucosamine pyrophosphorylase 1", 
+				"gene_1_id" : "9945", 
+				"gene_2_id" : "6675", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "GFPT2", 
+				"gene_2_name" : "glutamine-fructose-6-phosphate transaminase 2", 
+				"gene_1_id" : "9945", 
+				"gene_2_id" : "9945", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "GFPT2", 
+				"gene_2_name" : "UAP1", 
+				"gene_1_id" : "9945", 
+				"gene_2_id" : "6675", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "UDP-N-acetylglucosamine pyrophosphorylase 1", 
+				"gene_2_name" : "glutamine-fructose-6-phosphate transaminase 2", 
+				"gene_1_id" : "6675", 
+				"gene_2_id" : "9945", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "UDP-N-acetylglucosamine pyrophosphorylase 1", 
+				"gene_2_name" : "UAP1", 
+				"gene_1_id" : "6675", 
+				"gene_2_id" : "6675", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "glutamine-fructose-6-phosphate transaminase 2", 
+				"gene_2_name" : "UAP1", 
+				"gene_1_id" : "9945", 
+				"gene_2_id" : "6675", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"tumor" : "D009369"
+		}
+	}, 
+	"30789794" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "TGF-beta", 
+				"gene_2_name" : "TGFBR1", 
+				"gene_1_id" : "7040", 
+				"gene_2_id" : "7046", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "miR-7", 
+				"gene_2_name" : "TGFBR1", 
+				"gene_1_id" : "10859", 
+				"gene_2_id" : "7046", 
+				"database" : "RNA;"
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "miR- 7", 
+				"gene_2_name" : "TGFBR1", 
+				"gene_1_id" : "10859", 
+				"gene_2_id" : "7046", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "miR- 7", 
+				"gene_2_name" : "TGF-beta", 
+				"gene_1_id" : "10859", 
+				"gene_2_id" : "7040", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"cancer" : "D009369", 
+			"trophoblastic invasion" : "D014328"
+		}
+	}, 
+	"30790141" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "Desmogleins", 
+				"gene_2_name" : "Dsg2", 
+				"gene_1_id" : "1829", 
+				"gene_2_id" : "1829", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "VEGF", 
+				"gene_2_name" : "ERK", 
+				"gene_1_id" : "7422", 
+				"gene_2_id" : "5594", 
+				"database" : "BIOGRID;"
+			}
+		}, 
+		"diseases" : {
+			"cancer" : "D009369", 
+			"retinal neovascularization" : "D015861"
+		}
+	}, 
+	"30790340" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "EMT", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "3702", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "MMP", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "4318", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "EMT", 
+				"gene_2_name" : "MMP", 
+				"gene_1_id" : "3702", 
+				"gene_2_id" : "4318", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "MMPs", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "4318", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "MMP", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "4318", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "MMPs", 
+				"gene_2_name" : "MMP", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "4318", 
+				"database" : ""
+			}, 
+			"pair_8" : {
+				"gene_1_name" : "MMPs", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_9" : {
+				"gene_1_name" : "MMP", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "2113", 
+				"database" : "REACTOME;RNA;"
+			}, 
+			"pair_10" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_11" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_12" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_13" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_14" : {
+				"gene_1_name" : "MMP9", 
+				"gene_2_name" : "ZEB2", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "9839", 
+				"database" : ""
+			}, 
+			"pair_15" : {
+				"gene_1_name" : "MMP9", 
+				"gene_2_name" : "MMP", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "4318", 
+				"database" : "BIOGRID;REACTOME;RNA;"
+			}, 
+			"pair_16" : {
+				"gene_1_name" : "MMP9", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "2113", 
+				"database" : "REACTOME;RNA;"
+			}, 
+			"pair_17" : {
+				"gene_1_name" : "MMP9", 
+				"gene_2_name" : "TWIST", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "7291", 
+				"database" : ""
+			}, 
+			"pair_18" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "MMP", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "4318", 
+				"database" : ""
+			}, 
+			"pair_19" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_20" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "TWIST", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "7291", 
+				"database" : ""
+			}, 
+			"pair_21" : {
+				"gene_1_name" : "MMP", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "2113", 
+				"database" : "REACTOME;RNA;"
+			}, 
+			"pair_22" : {
+				"gene_1_name" : "MMP", 
+				"gene_2_name" : "TWIST", 
+				"gene_1_id" : "4318", 
+				"gene_2_id" : "7291", 
+				"database" : ""
+			}, 
+			"pair_23" : {
+				"gene_1_name" : "ETS1", 
+				"gene_2_name" : "TWIST", 
+				"gene_1_id" : "2113", 
+				"gene_2_id" : "7291", 
+				"database" : "RNA;"
+			}, 
+			"pair_24" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_25" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "EMT", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "3702", 
+				"database" : ""
+			}, 
+			"pair_26" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}, 
+			"pair_27" : {
+				"gene_1_name" : "EMT", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "3702", 
+				"gene_2_id" : "2113", 
+				"database" : "RNA;"
+			}, 
+			"pair_28" : {
+				"gene_1_name" : "ZEB2", 
+				"gene_2_name" : "ETS1", 
+				"gene_1_id" : "9839", 
+				"gene_2_id" : "2113", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"cancer" : "D009369", 
+			"hepatocellular carcinoma" : "D006528"
+		}
+	}, 
+	"30790546" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "epithelial cell-adhesion molecule", 
+				"gene_2_name" : "EpCAM", 
+				"gene_1_id" : "4072", 
+				"gene_2_id" : "4072", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "EGFR", 
+				"gene_2_name" : "EpCAM", 
+				"gene_1_id" : "1956", 
+				"gene_2_id" : "4072", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"tumor" : "D009369", 
+			"pancreatic cancer" : "D010190"
+		}
+	}, 
+	"30791220" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "SNAIL", 
+				"gene_2_name" : "SLUG", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "6591", 
+				"database" : "BIOGRID;"
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "SNAIL", 
+				"gene_2_name" : "TWIST1", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "7291", 
+				"database" : ""
+			}, 
+			"pair_3" : {
+				"gene_1_name" : "SNAIL", 
+				"gene_2_name" : "ZEB1", 
+				"gene_1_id" : "6615", 
+				"gene_2_id" : "6935", 
+				"database" : ""
+			}, 
+			"pair_4" : {
+				"gene_1_name" : "SLUG", 
+				"gene_2_name" : "TWIST1", 
+				"gene_1_id" : "6591", 
+				"gene_2_id" : "7291", 
+				"database" : ""
+			}, 
+			"pair_5" : {
+				"gene_1_name" : "SLUG", 
+				"gene_2_name" : "ZEB1", 
+				"gene_1_id" : "6591", 
+				"gene_2_id" : "6935", 
+				"database" : ""
+			}, 
+			"pair_6" : {
+				"gene_1_name" : "TWIST1", 
+				"gene_2_name" : "ZEB1", 
+				"gene_1_id" : "7291", 
+				"gene_2_id" : "6935", 
+				"database" : ""
+			}, 
+			"pair_7" : {
+				"gene_1_name" : "TWIST1", 
+				"gene_2_name" : "ZEB1", 
+				"gene_1_id" : "7291", 
+				"gene_2_id" : "6935", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"Pancreatic ductal adenocarcinoma" : "D021441", 
+			"cancer" : "D009369", 
+			"Pancreatic intraepithelial neoplasia" : "D018290"
+		}
+	}, 
+	"30791784" : {
+		"genes" : {
+			"pair_1" : {
+				"gene_1_name" : "Calpain-14", 
+				"gene_2_name" : "TSLP", 
+				"gene_1_id" : "440854", 
+				"gene_2_id" : "85480", 
+				"database" : ""
+			}, 
+			"pair_2" : {
+				"gene_1_name" : "IL-1beta", 
+				"gene_2_name" : "TNFalpha", 
+				"gene_1_id" : "3553", 
+				"gene_2_id" : "7124", 
+				"database" : ""
+			}
+		}, 
+		"diseases" : {
+			"Eosinophilic esophagitis" : "D057765", 
+			"inflammatory esophageal disease" : "D004935", 
+			"eosinophilic inflammation" : "D007249", 
+			"TGFbeta" : ""
+		}
+	}
+}
